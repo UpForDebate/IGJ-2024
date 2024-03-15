@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://b33a0gmac7r5o"]
+
+[ext_resource type="PackedScene" uid="uid://pwlfiiclqfr7" path="res://scenes/zombie.tscn" id="1_5xtve"]
+[ext_resource type="Material" uid="uid://c21nt5nxa058q" path="res://models/materials/zombieFemaleA_skin.tres" id="2_wuv3n"]
+
+[node name="Zombie" instance=ExtResource("1_5xtve")]
+
+[node name="characterMedium" parent="Character/RootNode/Root/GeneralSkeleton" index="0"]
+material_override = ExtResource("2_wuv3n")
+
+[node name="HandHitbox" parent="Character/RootNode/Root/GeneralSkeleton" index="1"]
+transform = Transform3D(-2.10735e-08, -1, -1.78814e-07, -1.39698e-08, 1.78814e-07, -1, 1, -2.10735e-08, -1.39698e-08, -1.3289, 3.83972, 0.0580823)
