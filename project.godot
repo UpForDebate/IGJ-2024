@@ -23,7 +23,9 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Edgar": "res://timelines/Edgar.dch"
+"Edgar": "res://timelines/Edgar.dch",
+"Pivot de TV": "res://timelines/Pivot de TV.dch",
+"Toze": "res://timelines/Toze.dch"
 }
 directories/dtl_directory={
 "endingTimeline": "res://timelines/endingTimeline.dtl",
@@ -48,7 +50,16 @@ save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
 variables={
+"isEdDead": false,
+"isHandsWashed": false,
+"isMoisesBed": false,
+"isMoisesCarpet": false,
+"isMoisesChopped": false,
+"isMoisesFridged": false,
+"isMoisesGarbage": false,
+"isMoisesRio": false,
 "isTimerOver": false,
+"isTozeDead": false,
 "state": 0
 }
 layout/style_list=[]
