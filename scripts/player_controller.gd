@@ -6,6 +6,7 @@ const SPRINT_SPEED = 5.0
 const ROTATION_SPEED = 1.66
 
 @onready var _animator = $Character/AnimationPlayer
+@onready var _interaction_area = $InteractionArea
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -45,6 +46,19 @@ func _physics_process(delta):
 		velocity.y -= gravity * delta
 
 	move_and_slide()
+
+
+func _process(_delta):
+	if(Input.is_action_just_pressed("interact")):
+		var interactablesInRange = _interaction_area.get_overlapping_bodies()
+		var closest : Node3D
+		var closestDistance : float = INF
+		for interactable : Node3D in interactablesInRange:
+			if((interactable.position-position).length()<closestDistance &&closest.get_meta("interactTimeline")!=null):
+				closest = interactable
+				closestDistance = (closest.position-position).length()
+		if closest.get_meta("interactionTimeline")!=null:
+			Dialogic.start(closest.get_meta("interactTimeline"))
 
 
 func _on_die():
