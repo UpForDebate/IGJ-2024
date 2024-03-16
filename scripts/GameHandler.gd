@@ -16,12 +16,9 @@ func _ready():
 
 func startGame():
 	state = 0
-	_timerNode.timeout.connect(playTimeline)
-	startTimer()
-	$Control/Blackscreen/AnimationPlayer.play("fadeIn")
+	playTimeline()
 
 func startTimer(fail = 0):
-	$Control/Blackscreen/AnimationPlayer.play("fadeIn")
 	if (fail != 0):
 		pass
 	if(state==4):
@@ -36,13 +33,13 @@ func endGame():
 
 
 func playTimeline():
-	$Control/Blackscreen/AnimationPlayer.play_backwards("fadeIn")
 	var _auxTimeline = Dialogic.start(_timelines[state])
 	state += 1
 	
 	Dialogic.VAR.state = state
 	
 	Dialogic.timeline_ended.connect(startTimer)
+	Dialogic.timeline_ended.connect($Control/Blackscreen/AnimationPlayer.play.bind("fadeIn"))
 	
 
 
