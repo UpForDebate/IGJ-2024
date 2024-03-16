@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://rl7uqntfcu4l"]
+
+[sub_resource type="Gradient" id="Gradient_rwdga"]
+colors = PackedColorArray(0, 0, 0, 0, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_k12u8"]
+gradient = SubResource("Gradient_rwdga")
+fill_from = Vector2(0.487013, 0.977273)
+fill_to = Vector2(0.506494, 0.00974026)
+
+[resource]
+transparency = 1
+albedo_texture = SubResource("GradientTexture2D_k12u8")
+uv1_triplanar = true
