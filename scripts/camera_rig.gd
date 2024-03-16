@@ -8,5 +8,4 @@ extends Node3D
 
 func _process(delta):
 	camera3D.look_at(((target.position + position)/2) + Vector3.UP, Vector3.UP)
-	
 	$DebugBall2.global_position = ((target.position + position)/2) + Vector3.UP

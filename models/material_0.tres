@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://blsnbhqw8x2tg"]
+
+[ext_resource type="Texture2D" uid="uid://dc8waiqaplre8" path="res://models/banheia_0.png" id="1_wr22v"]
+
+[resource]
+resource_name = "material_0"
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+cull_mode = 2
+albedo_texture = ExtResource("1_wr22v")
+metallic = 1.0
+roughness = 0.8
+texture_filter = 2
+texture_repeat = false
