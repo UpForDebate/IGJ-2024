@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c0kulo4crmgng"]
+
+[resource]
+resource_name = "VSHPlayer"
+cull_mode = 2
+metallic = 1.0

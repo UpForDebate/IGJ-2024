@@ -1,0 +1,137 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cwiya3arogqdo"
+path="res://.godot/imported/PSX-ApartmentPack.blend-643d8668cb6e706fd40b686bec5ed4f7.scn"
+
+[deps]
+
+source_file="res://Assets/PSX-ApartmentPack.blend"
+dest_files=["res://.godot/imported/PSX-ApartmentPack.blend-643d8668cb6e706fd40b686bec5ed4f7.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"BathroomSink": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/BathroomSink.tres"
+},
+"Bookshelf": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Bookshelf.tres"
+},
+"Cooktop": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Cooktop.tres"
+},
+"Couch": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Couch.tres"
+},
+"Door": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Door.tres"
+},
+"Floor": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Floor.tres"
+},
+"KitchenCabinet": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/KitchenCabinet.tres"
+},
+"KitchenExtractor": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/KitchenExtractor.tres"
+},
+"KitchenSink": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/KitchenSink.tres"
+},
+"KitchenSinkFaucet": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/KitchenSinkFaucet.tres"
+},
+"Mirror": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Mirror.tres"
+},
+"MirrorBorder": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/MirrorBorder.tres"
+},
+"Plant": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Plant.tres"
+},
+"PlantPot": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/PlantPot.tres"
+},
+"Rug": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Rug.tres"
+},
+"ShowerFloor": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/ShowerFloor.tres"
+},
+"TV": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/TV.tres"
+},
+"Table": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Table.tres"
+},
+"VSHPlayer": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/VSHPlayer.tres"
+},
+"WC": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/WC.tres"
+},
+"Wall": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/apartment/Wall.tres"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1
+blender/nodes/visible=0
+blender/nodes/punctual_lights=true
+blender/nodes/cameras=true
+blender/nodes/custom_properties=true
+blender/nodes/modifiers=1
+blender/meshes/colors=false
+blender/meshes/uvs=true
+blender/meshes/normals=true
+blender/meshes/tangents=true
+blender/meshes/skins=2
+blender/meshes/export_bones_deforming_mesh_only=false
+blender/materials/unpack_enabled=true
+blender/materials/export_materials=1
+blender/animation/limit_playback=true
+blender/animation/always_sample=true
+blender/animation/group_tracks=true

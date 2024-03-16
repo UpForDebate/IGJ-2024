@@ -1,0 +1,9 @@
+if {isHandsWashed} == false:
+	*Estás com as mãos cheias de sangue (literalmente)*
+	- Lavar as mãos
+		Edgar: Agora estou limpinho e apresentável.
+		set {isHandsWashed} = true
+	- Não lavar
+		Edgar: Meh, não vale a pena
+else:
+	Edgar: Não preciso de me lavar.

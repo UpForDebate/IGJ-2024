@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bpj570kxx61ng"]
+
+[resource]
+resource_name = "TV"
+cull_mode = 2
+metallic = 1.0

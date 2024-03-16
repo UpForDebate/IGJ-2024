@@ -1,18 +1,24 @@
 *batem levemente na porta*
 Toze: Moisés, estás bem? Ouvi um estrondo enorme no apartamento, precisas de ajuda?
-- Admitir
-	Edgar: Das duas uma\: ou eu matei o Moisés, ou estes soporíferos russos funcionam bem demais…
-	Toze: O QUÊ? TEMOS DE CHAMAR A UMA AMBULÂNCIA!!!!!!
+*Edgar abre a porta*
+if {isHandsWashed} == false:
+	Toze: F***** Ed, estás cheio de sangue nas mãos, vou chamar a polícia!
 	set {isTimerOver} = true
 	jump endingTimeline/
-- Gaslighting
-	Edgar: Um estroundo? Deves ter ouvido mal, o único estrondo aqui é a minha bombástica voz de Symphonic Metal.
-	Toze: ………. Nesse caso apreciava se fosses ser sinfônico para o teu quarto, longe daqui.
-- Mentira
-	Edgar: Yep, eu estava a ajudar o Moisés com uns arrumos e deixei cair um candeeiro, erro meu.
-	Toze: Claro que tinhas de ser tu Edgar, lembra-te que se tu partes, pagas. 
-- Silêncio
-	Edgar: ……………………………………………………….
-	Toze: Moisés? Estás aí? ………………….. Moisés?!?!?! …………….. Que se f***, vou chamar a segurança.
-	set {isTimerOver} = true
-	jump endingTimeline/
+else:
+	- Admitir
+		Edgar: Das duas uma\: ou eu matei o Moisés, ou estes soporíferos russos funcionam bem demais…
+		Toze: O QUÊ? TEMOS DE CHAMAR A UMA AMBULÂNCIA!!!!!!
+		set {isTimerOver} = true
+		jump endingTimeline/
+	- Gaslighting
+		Edgar: Um estroundo? Deves ter ouvido mal, o único estrondo aqui é a minha bombástica voz de Symphonic Metal.
+		Toze: ………. Nesse caso apreciava se fosses ser sinfônico para o teu quarto, longe daqui.
+	- Mentira
+		Edgar: Yep, eu estava a ajudar o Moisés com uns arrumos e deixei cair um candeeiro, erro meu.
+		Toze: Claro que tinhas de ser tu Edgar, lembra-te que se tu partes, pagas. 
+	- Silêncio
+		Edgar: ……………………………………………………….
+		Toze: Moisés? Estás aí? ………………….. Moisés?!?!?! …………….. Que se f***, vou chamar a segurança.
+		set {isTimerOver} = true
+		jump endingTimeline/

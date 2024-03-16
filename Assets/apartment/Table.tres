@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bi0qke46acw5i"]
+
+[resource]
+resource_name = "Table"
+cull_mode = 2
+metallic = 1.0

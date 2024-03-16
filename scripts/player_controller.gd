@@ -62,7 +62,7 @@ func _process(_delta):
 			if((interactable.position-position).length()<closestDistance &&closest.get_meta("interactTimeline")!=null):
 				closest = interactable
 				closestDistance = (closest.position-position).length()
-		if closest != null && closest.get_meta("interactionTiemeline")!=null:
+		if closest != null && closest.get_meta("interactTimeline")!=null:
 			Dialogic.start(closest.get_meta("interactTimeline"))
 
 		if closest != null && closest.get_meta("door") == true:

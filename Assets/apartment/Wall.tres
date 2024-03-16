@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b560vi6a883g"]
+
+[resource]
+resource_name = "Wall"
+cull_mode = 2
+metallic = 1.0

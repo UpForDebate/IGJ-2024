@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cbkyur635n0cr"]
+
+[resource]
+resource_name = "Rug"
+transparency = 4
+cull_mode = 2
+roughness = 0.629545
+normal_enabled = true
+normal_scale = 0.55
+texture_filter = 2

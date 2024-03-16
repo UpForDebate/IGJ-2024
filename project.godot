@@ -30,7 +30,9 @@ directories/dch_directory={
 directories/dtl_directory={
 "endingTimeline": "res://timelines/endingTimeline.dtl",
 "firstEventTimeline": "res://timelines/firstEventTimeline.dtl",
+"frigorifico": "res://timelines/objects/frigorifico.dtl",
 "introTimeline": "res://timelines/introTimeline.dtl",
+"lavatório": "res://timelines/objects/lavatório.dtl",
 "secondEventTimeline": "res://timelines/secondEventTimeline.dtl"
 }
 text/letter_speed=0.01
@@ -50,6 +52,10 @@ save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
 variables={
+"hasCarpetes": false,
+"hasKnife": false,
+"hasMelancia": false,
+"hasTrashBags": false,
 "isEdDead": false,
 "isHandsWashed": false,
 "isMoisesBed": false,

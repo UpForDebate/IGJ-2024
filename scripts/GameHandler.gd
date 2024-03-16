@@ -42,11 +42,15 @@ func playTimeline():
 		return
 	var _auxTimeline = Dialogic.start(_timelines[state])
 	state += 1
-	
+	_timerNode.stop()
 	Dialogic.VAR.state = state
 	
 	Dialogic.timeline_ended.connect(startTimer)
 	Dialogic.timeline_ended.connect($Control/Blackscreen/AnimationPlayer.play.bind("fadeIn"))
+	Dialogic.timeline_ended.connect(_timerNode.start)
+	
+	if(state==2):
+		_timerNode.wait_time = 180
 	
 
 

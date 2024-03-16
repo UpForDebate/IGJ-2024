@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://u1rtos5204l0"]
+
+[resource]
+resource_name = "Bookshelf"
+cull_mode = 2
+metallic = 1.0

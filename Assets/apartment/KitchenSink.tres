@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://djspimfxo46du"]
+
+[resource]
+resource_name = "KitchenSink"
+cull_mode = 2
+metallic = 1.0

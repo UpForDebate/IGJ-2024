@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cmuxh0rhcmuvk"]
+
+[resource]
+resource_name = "KitchenCabinet"
+cull_mode = 2
+metallic = 1.0

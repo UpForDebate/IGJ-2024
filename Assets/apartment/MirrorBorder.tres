@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://2v24pj0am4h0"]
+
+[resource]
+resource_name = "MirrorBorder"
+cull_mode = 2
+albedo_color = Color(0.607843, 0.219608, 0.160784, 1)
+metallic = 1.0

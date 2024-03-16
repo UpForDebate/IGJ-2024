@@ -12,7 +12,7 @@ elif {isMoisesBed} == true:
 	"Pivot de TV": Em péssimas notícias, o Moisés foi encontrado falecido na cama.
 else:
 	"Pivot de TV": Um corpo foi encontrado na banheira de um apartamento.
-if {isTozeDead} == false:
+if {isTozeDead} == true:
 	"Pivot de TV": Tozé também foi encontrado morto, para quem isso interesse. Tinha uma melancia na cabeça.
 label How it Was Found
 if {isMoisesChopped} == true:

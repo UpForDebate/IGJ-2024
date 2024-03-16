@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c72yx72rl6b4n"]
+
+[resource]
+resource_name = "BathroomSink"
+cull_mode = 2
+metallic = 1.0

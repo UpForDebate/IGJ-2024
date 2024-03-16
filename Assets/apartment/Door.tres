@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dm6k442kl33fv"]
+
+[resource]
+resource_name = "Door"
+cull_mode = 2
+metallic = 1.0

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b4cb0xfydh1wv"]
+
+[resource]
+resource_name = "ShowerFloor"
+cull_mode = 2
+metallic = 1.0
