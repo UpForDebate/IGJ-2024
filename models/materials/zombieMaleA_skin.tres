@@ -1,7 +1,9 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bv13ki0cqudsv"]
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bv13ki0cqudsv"]
 
 [ext_resource type="Texture2D" uid="uid://djekmg22ptkwb" path="res://models/skins/zombieMaleA.png" id="1_xvk38"]
+[ext_resource type="Material" uid="uid://db54uqfk3tdxs" path="res://materials/example.tres" id="2_o5ldq"]
 
 [resource]
+next_pass = ExtResource("2_o5ldq")
 albedo_texture = ExtResource("1_xvk38")
 texture_filter = 0
