@@ -299,556 +299,1111 @@ _subresources={
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_WardrobeDoor.mesh"
 },
 "Root Scene_Ceiling_1_5x1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x1_5.mesh"
 },
 "Root Scene_Ceiling_1_5x1_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x1_Hatch.mesh"
 },
 "Root Scene_Ceiling_1_5x3_H": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_H.mesh"
 },
 "Root Scene_Ceiling_1_5x3_H_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_H_Hatch.mesh"
 },
 "Root Scene_Ceiling_1_5x3_Sloped": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_Sloped.mesh"
 },
 "Root Scene_Ceiling_1_5x3_V": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_V.mesh"
 },
 "Root Scene_Ceiling_1_5x3_V_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_V_Hatch.mesh"
 },
 "Root Scene_Ceiling_3x3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3.mesh"
 },
 "Root Scene_Ceiling_3x3_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3_Hatch.mesh"
 },
 "Root Scene_Ceiling_3x3_Sloped": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3_Sloped.mesh"
 },
 "Root Scene_Door01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door01.mesh"
 },
 "Root Scene_Door02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door02.mesh"
 },
 "Root Scene_Door03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door03.mesh"
 },
 "Root Scene_Door04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door04.mesh"
 },
 "Root Scene_Door05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door05.mesh"
 },
 "Root Scene_Door06": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door06.mesh"
 },
 "Root Scene_DoorHandle_Base": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.DoorHandle_Base.mesh"
 },
 "Root Scene_DoorHandle_Handle": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.DoorHandle_Handle.mesh"
 },
 "Root Scene_Doorframe": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Doorframe.mesh"
 },
 "Root Scene_Fireplace_Inset": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Fireplace_Inset.mesh"
 },
 "Root Scene_FloorHatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.FloorHatch.mesh"
 },
 "Root Scene_FloorHatch_Cap": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.FloorHatch_Cap.mesh"
 },
 "Root Scene_Floor_1_5x1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x1_5.mesh"
 },
 "Root Scene_Floor_1_5x1_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x1_Hatch.mesh"
 },
 "Root Scene_Floor_1_5x3_H": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_H.mesh"
 },
 "Root Scene_Floor_1_5x3_H_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_H_Hatch.mesh"
 },
 "Root Scene_Floor_1_5x3_V": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_V.mesh"
 },
 "Root Scene_Floor_1_5x3_V_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_V_Hatch.mesh"
 },
 "Root Scene_Floor_3x3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_3x3.mesh"
 },
 "Root Scene_Floor_3x3_Hatch": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_3x3_Hatch.mesh"
 },
 "Root Scene_Pillar01_Corner": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Corner.mesh"
 },
 "Root Scene_Pillar01_Half": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Half.mesh"
 },
 "Root Scene_Pillar01_Solid": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Solid.mesh"
 },
 "Root Scene_Pillar02_Corner": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Corner.mesh"
 },
 "Root Scene_Pillar02_Half": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Half.mesh"
 },
 "Root Scene_Pillar02_Solid": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Solid.mesh"
 },
 "Root Scene_Props_Bed": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Bed.mesh"
 },
 "Root Scene_Props_BedsideTable": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_BedsideTable.mesh"
 },
 "Root Scene_Props_BedsideTable_Drawer": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_BedsideTable_Drawer.mesh"
 },
 "Root Scene_Props_Bookshelf": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Bookshelf.mesh"
 },
 "Root Scene_Props_Chair": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Chair.mesh"
 },
 "Root Scene_Props_DiningTable": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_DiningTable.mesh"
 },
 "Root Scene_Props_Drawers": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Drawers.mesh"
 },
 "Root Scene_Props_Drawers_Draw": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Drawers_Draw.mesh"
 },
 "Root Scene_Props_FireSurround": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_FireSurround.mesh"
 },
 "Root Scene_Props_LightFixture_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_LightFixture_01.mesh"
 },
 "Root Scene_Props_LightFixture_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_LightFixture_02.mesh"
 },
 "Root Scene_Props_Mattress": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Mattress.mesh"
 },
 "Root Scene_Props_Radiator": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Radiator.mesh"
 },
 "Root Scene_Props_Rug01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Rug01.mesh"
 },
 "Root Scene_Props_Rug02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Rug02.mesh"
 },
 "Root Scene_Props_Wardrobe": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Wardrobe.mesh"
 },
 "Root Scene_Props_WardrobeDoor": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_WardrobeDoor.mesh"
 },
 "Root Scene_Stairs_Narrow_Full": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Full.mesh"
 },
 "Root Scene_Stairs_Narrow_Half": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Half.mesh"
 },
 "Root Scene_Stairs_Narrow_Single": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Single.mesh"
 },
 "Root Scene_Stairs_Wide_Full": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Full.mesh"
 },
 "Root Scene_Stairs_Wide_Half": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Half.mesh"
 },
 "Root Scene_Stairs_Wide_Single": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Single.mesh"
 },
 "Root Scene_Wall_1_5x1_5_Angled_1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_1_5x1_5_Angled_1_5.mesh"
 },
 "Root Scene_Wall_1_5x1_5_Angled_3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_1_5x1_5_Angled_3.mesh"
 },
 "Root Scene_Wall_3x1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x1_5.mesh"
 },
 "Root Scene_Wall_3x3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3.mesh"
 },
 "Root Scene_Wall_3x3_Angled_1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3_Angled_1_5.mesh"
 },
 "Root Scene_Wall_3x3_Angled_3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3_Angled_3.mesh"
 },
 "Root Scene_Wall_Archway_3x1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_3x1_5.mesh"
 },
 "Root Scene_Wall_Archway_3x3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_3x3.mesh"
 },
 "Root Scene_Wall_Archway_Cap": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Cap.mesh"
 },
 "Root Scene_Wall_Archway_Wide": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Wide.mesh"
 },
 "Root Scene_Wall_Archway_Wide_Cap": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Wide_Cap.mesh"
 },
 "Root Scene_Wall_BayWindow": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow.mesh"
 },
 "Root Scene_Wall_BayWindow_Frame_L": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow_Frame_L.mesh"
 },
 "Root Scene_Wall_BayWindow_Frame_M": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow_Frame_M.mesh"
 },
 "Root Scene_Wall_Doorway_3x1_5": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_3x1_5.mesh"
 },
 "Root Scene_Wall_Doorway_3x3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_3x3.mesh"
 },
 "Root Scene_Wall_Doorway_Cap": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_Cap.mesh"
 },
 "Root Scene_Wall_Fireplace": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Fireplace.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_01.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_01_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_01_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_02.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_02_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_02_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_03.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_03_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_03_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_04.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_04_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_04_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_05.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_05_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_05_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_06": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_06.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_06_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_06_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_07": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_07.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_07_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_07_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_08": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_08.mesh"
 },
 "Root Scene_Wall_Window_3x1_5_08_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_08_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_01.mesh"
 },
 "Root Scene_Wall_Window_3x3_01_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_01_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_02.mesh"
 },
 "Root Scene_Wall_Window_3x3_02_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_02_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_03.mesh"
 },
 "Root Scene_Wall_Window_3x3_03_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_03_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_04.mesh"
 },
 "Root Scene_Wall_Window_3x3_04_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_04_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_05.mesh"
 },
 "Root Scene_Wall_Window_3x3_05_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_05_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_06": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_06.mesh"
 },
 "Root Scene_Wall_Window_3x3_06_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_06_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_07": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_07.mesh"
 },
 "Root Scene_Wall_Window_3x3_07_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_07_Frame.mesh"
 },
 "Root Scene_Wall_Window_3x3_08": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_08.mesh"
 },
 "Root Scene_Wall_Window_3x3_08_Frame": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_08_Frame.mesh"
 },
 "Root Scene_Window_Glass_L": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Window_Glass_L.mesh"
 },
 "Root Scene_Window_Glass_M": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
 "save_to_file/enabled": true,
 "save_to_file/make_streamable": "",
 "save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Window_Glass_M.mesh"

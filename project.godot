@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="IGJ-2024"
-run/main_scene="res://scenes/sample_scene.tscn"
+run/main_scene="res://Assets/Architecture Pack/___ DemoScene/SampleScene.scn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 boot_splash/image="res://icon.png"
 config/icon="res://icon.svg"
@@ -22,10 +22,14 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"Edgar": "res://timelines/Edgar.dch"
+}
 directories/dtl_directory={
-"timeline": "res://timelines/timeline.dtl",
-"timeline2": "res://timelines/timeline2.dtl"
+"endingTimeline": "res://timelines/endingTimeline.dtl",
+"firstEventTimeline": "res://timelines/firstEventTimeline.dtl",
+"introTimeline": "res://timelines/introTimeline.dtl",
+"secondEventTimeline": "res://timelines/secondEventTimeline.dtl"
 }
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
@@ -43,14 +47,16 @@ choices/reveal_by_input=false
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
-variables={}
+variables={
+"state": 0
+}
 layout/style_list=[]
 layout/default_style="Default"
 glossary/default_case_sensitive=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/Godot-MToon-Shader/plugin.cfg", "res://addons/unidot_importer/plugin.cfg", "res://addons/vrm/plugin.cfg")
+enabled=PackedStringArray("res://addons/Godot-MToon-Shader/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/unidot_importer/plugin.cfg", "res://addons/vrm/plugin.cfg")
 
 [input]
 

@@ -14,7 +14,9 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 func _physics_process(delta):
 	var current_speed = SPRINT_SPEED if Input.is_action_pressed("sprint") else SPEED
 	var walk_anim = "survivalHorror/Jog Forward" if Input.is_action_pressed("sprint") else  "survivalHorror/Walking"
-
+	if(Dialogic.current_timeline!=null):
+		_animator.play("survivalHorror/Idle", 1.0, 1.0, false)
+		return
 	if Input.is_action_pressed("aim"):
 		_animator.play("survivalHorror/Knife Aim")
 
@@ -54,6 +56,9 @@ func _process(_delta):
 		var closest : Node3D
 		var closestDistance : float = INF
 		for interactable : Node3D in interactablesInRange:
+			if(closest==null):
+				closest = interactable
+				closestDistance = (closest.position-position).length()
 			if((interactable.position-position).length()<closestDistance &&closest.get_meta("interactTimeline")!=null):
 				closest = interactable
 				closestDistance = (closest.position-position).length()
