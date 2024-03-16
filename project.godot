@@ -16,6 +16,7 @@ config/features=PackedStringArray("4.2", "GL Compatibility")
 boot_splash/image="res://icon.png"
 config/icon="res://icon.svg"
 
+<<<<<<< Updated upstream
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
@@ -51,6 +52,11 @@ glossary/default_case_sensitive=true
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
+=======
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/Godot-MToon-Shader/plugin.cfg", "res://addons/unidot_importer/plugin.cfg", "res://addons/vrm/plugin.cfg")
+>>>>>>> Stashed changes
 
 [input]
 
@@ -100,5 +106,5 @@ dialogic_default_action={
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
+renderer/rendering_method="mobile"
 renderer/rendering_method.mobile="gl_compatibility"

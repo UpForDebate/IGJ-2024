@@ -1,0 +1,1156 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://g55i2nt4a4ta"
+path="res://.godot/imported/Architecture Kit.gltf-cfc324e555bed351f29e87706377cb73.scn"
+
+[deps]
+
+source_file="res://Assets/Architecture Pack/Architecture/Mesh/Architecture Kit.gltf"
+dest_files=["res://.godot/imported/Architecture Kit.gltf-cfc324e555bed351f29e87706377cb73.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name="Root Scene"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=1
+meshes/generate_lods=true
+meshes/create_shadow_meshes=false
+meshes/light_baking=2
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=false
+animation/fps=24.0
+animation/trimming=false
+animation/remove_immutable_tracks=false
+import_script/path=""
+_subresources={
+"animations": {},
+"materials": {},
+"meshes": {
+"Ceiling_1_5x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x1_5.mesh"
+},
+"Ceiling_1_5x1_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x1_Hatch.mesh"
+},
+"Ceiling_1_5x3_H": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_H.mesh"
+},
+"Ceiling_1_5x3_H_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_H_Hatch.mesh"
+},
+"Ceiling_1_5x3_Sloped": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_Sloped.mesh"
+},
+"Ceiling_1_5x3_V": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_V.mesh"
+},
+"Ceiling_1_5x3_V_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_V_Hatch.mesh"
+},
+"Ceiling_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3.mesh"
+},
+"Ceiling_3x3_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3_Hatch.mesh"
+},
+"Ceiling_3x3_Sloped": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3_Sloped.mesh"
+},
+"Door01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door01.mesh"
+},
+"Door02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door02.mesh"
+},
+"Door03": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door03.mesh"
+},
+"Door04": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door04.mesh"
+},
+"Door05": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door05.mesh"
+},
+"Door06": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door06.mesh"
+},
+"DoorHandle_Base": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.DoorHandle_Base.mesh"
+},
+"DoorHandle_Handle": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.DoorHandle_Handle.mesh"
+},
+"Doorframe": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Doorframe.mesh"
+},
+"Fireplace_Inset": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Fireplace_Inset.mesh"
+},
+"FloorHatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.FloorHatch.mesh"
+},
+"FloorHatch_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.FloorHatch_Cap.mesh"
+},
+"Floor_1_5x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x1_5.mesh"
+},
+"Floor_1_5x1_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x1_Hatch.mesh"
+},
+"Floor_1_5x3_H": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_H.mesh"
+},
+"Floor_1_5x3_H_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_H_Hatch.mesh"
+},
+"Floor_1_5x3_V": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_V.mesh"
+},
+"Floor_1_5x3_V_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_V_Hatch.mesh"
+},
+"Floor_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_3x3.mesh"
+},
+"Floor_3x3_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_3x3_Hatch.mesh"
+},
+"Pillar01_Corner": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Corner.mesh"
+},
+"Pillar01_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Half.mesh"
+},
+"Pillar01_Solid": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Solid.mesh"
+},
+"Pillar02_Corner": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Corner.mesh"
+},
+"Pillar02_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Half.mesh"
+},
+"Pillar02_Solid": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Solid.mesh"
+},
+"Props_Bed": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Bed.mesh"
+},
+"Props_BedsideTable": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_BedsideTable.mesh"
+},
+"Props_BedsideTable_Drawer": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_BedsideTable_Drawer.mesh"
+},
+"Props_Bookshelf": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Bookshelf.mesh"
+},
+"Props_Chair": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Chair.mesh"
+},
+"Props_DiningTable": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_DiningTable.mesh"
+},
+"Props_Drawers": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Drawers.mesh"
+},
+"Props_Drawers_Draw": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Drawers_Draw.mesh"
+},
+"Props_FireSurround": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_FireSurround.mesh"
+},
+"Props_LightFixture_01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_LightFixture_01.mesh"
+},
+"Props_LightFixture_02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_LightFixture_02.mesh"
+},
+"Props_Mattress": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Mattress.mesh"
+},
+"Props_Radiator": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Radiator.mesh"
+},
+"Props_Rug01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Rug01.mesh"
+},
+"Props_Rug02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Rug02.mesh"
+},
+"Props_Wardrobe": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Wardrobe.mesh"
+},
+"Props_WardrobeDoor": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_WardrobeDoor.mesh"
+},
+"Root Scene_Ceiling_1_5x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x1_5.mesh"
+},
+"Root Scene_Ceiling_1_5x1_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x1_Hatch.mesh"
+},
+"Root Scene_Ceiling_1_5x3_H": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_H.mesh"
+},
+"Root Scene_Ceiling_1_5x3_H_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_H_Hatch.mesh"
+},
+"Root Scene_Ceiling_1_5x3_Sloped": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_Sloped.mesh"
+},
+"Root Scene_Ceiling_1_5x3_V": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_V.mesh"
+},
+"Root Scene_Ceiling_1_5x3_V_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_1_5x3_V_Hatch.mesh"
+},
+"Root Scene_Ceiling_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3.mesh"
+},
+"Root Scene_Ceiling_3x3_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3_Hatch.mesh"
+},
+"Root Scene_Ceiling_3x3_Sloped": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Ceiling_3x3_Sloped.mesh"
+},
+"Root Scene_Door01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door01.mesh"
+},
+"Root Scene_Door02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door02.mesh"
+},
+"Root Scene_Door03": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door03.mesh"
+},
+"Root Scene_Door04": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door04.mesh"
+},
+"Root Scene_Door05": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door05.mesh"
+},
+"Root Scene_Door06": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Door06.mesh"
+},
+"Root Scene_DoorHandle_Base": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.DoorHandle_Base.mesh"
+},
+"Root Scene_DoorHandle_Handle": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.DoorHandle_Handle.mesh"
+},
+"Root Scene_Doorframe": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Doorframe.mesh"
+},
+"Root Scene_Fireplace_Inset": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Fireplace_Inset.mesh"
+},
+"Root Scene_FloorHatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.FloorHatch.mesh"
+},
+"Root Scene_FloorHatch_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.FloorHatch_Cap.mesh"
+},
+"Root Scene_Floor_1_5x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x1_5.mesh"
+},
+"Root Scene_Floor_1_5x1_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x1_Hatch.mesh"
+},
+"Root Scene_Floor_1_5x3_H": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_H.mesh"
+},
+"Root Scene_Floor_1_5x3_H_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_H_Hatch.mesh"
+},
+"Root Scene_Floor_1_5x3_V": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_V.mesh"
+},
+"Root Scene_Floor_1_5x3_V_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_1_5x3_V_Hatch.mesh"
+},
+"Root Scene_Floor_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_3x3.mesh"
+},
+"Root Scene_Floor_3x3_Hatch": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Floor_3x3_Hatch.mesh"
+},
+"Root Scene_Pillar01_Corner": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Corner.mesh"
+},
+"Root Scene_Pillar01_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Half.mesh"
+},
+"Root Scene_Pillar01_Solid": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar01_Solid.mesh"
+},
+"Root Scene_Pillar02_Corner": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Corner.mesh"
+},
+"Root Scene_Pillar02_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Half.mesh"
+},
+"Root Scene_Pillar02_Solid": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Pillar02_Solid.mesh"
+},
+"Root Scene_Props_Bed": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Bed.mesh"
+},
+"Root Scene_Props_BedsideTable": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_BedsideTable.mesh"
+},
+"Root Scene_Props_BedsideTable_Drawer": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_BedsideTable_Drawer.mesh"
+},
+"Root Scene_Props_Bookshelf": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Bookshelf.mesh"
+},
+"Root Scene_Props_Chair": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Chair.mesh"
+},
+"Root Scene_Props_DiningTable": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_DiningTable.mesh"
+},
+"Root Scene_Props_Drawers": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Drawers.mesh"
+},
+"Root Scene_Props_Drawers_Draw": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Drawers_Draw.mesh"
+},
+"Root Scene_Props_FireSurround": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_FireSurround.mesh"
+},
+"Root Scene_Props_LightFixture_01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_LightFixture_01.mesh"
+},
+"Root Scene_Props_LightFixture_02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_LightFixture_02.mesh"
+},
+"Root Scene_Props_Mattress": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Mattress.mesh"
+},
+"Root Scene_Props_Radiator": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Radiator.mesh"
+},
+"Root Scene_Props_Rug01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Rug01.mesh"
+},
+"Root Scene_Props_Rug02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Rug02.mesh"
+},
+"Root Scene_Props_Wardrobe": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_Wardrobe.mesh"
+},
+"Root Scene_Props_WardrobeDoor": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Props_WardrobeDoor.mesh"
+},
+"Root Scene_Stairs_Narrow_Full": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Full.mesh"
+},
+"Root Scene_Stairs_Narrow_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Half.mesh"
+},
+"Root Scene_Stairs_Narrow_Single": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Single.mesh"
+},
+"Root Scene_Stairs_Wide_Full": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Full.mesh"
+},
+"Root Scene_Stairs_Wide_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Half.mesh"
+},
+"Root Scene_Stairs_Wide_Single": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Single.mesh"
+},
+"Root Scene_Wall_1_5x1_5_Angled_1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_1_5x1_5_Angled_1_5.mesh"
+},
+"Root Scene_Wall_1_5x1_5_Angled_3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_1_5x1_5_Angled_3.mesh"
+},
+"Root Scene_Wall_3x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x1_5.mesh"
+},
+"Root Scene_Wall_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3.mesh"
+},
+"Root Scene_Wall_3x3_Angled_1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3_Angled_1_5.mesh"
+},
+"Root Scene_Wall_3x3_Angled_3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3_Angled_3.mesh"
+},
+"Root Scene_Wall_Archway_3x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_3x1_5.mesh"
+},
+"Root Scene_Wall_Archway_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_3x3.mesh"
+},
+"Root Scene_Wall_Archway_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Cap.mesh"
+},
+"Root Scene_Wall_Archway_Wide": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Wide.mesh"
+},
+"Root Scene_Wall_Archway_Wide_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Wide_Cap.mesh"
+},
+"Root Scene_Wall_BayWindow": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow.mesh"
+},
+"Root Scene_Wall_BayWindow_Frame_L": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow_Frame_L.mesh"
+},
+"Root Scene_Wall_BayWindow_Frame_M": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow_Frame_M.mesh"
+},
+"Root Scene_Wall_Doorway_3x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_3x1_5.mesh"
+},
+"Root Scene_Wall_Doorway_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_3x3.mesh"
+},
+"Root Scene_Wall_Doorway_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_Cap.mesh"
+},
+"Root Scene_Wall_Fireplace": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Fireplace.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_01.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_01_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_01_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_02.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_02_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_02_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_03": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_03.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_03_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_03_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_04": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_04.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_04_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_04_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_05": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_05.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_05_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_05_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_06": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_06.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_06_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_06_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_07": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_07.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_07_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_07_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_08": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_08.mesh"
+},
+"Root Scene_Wall_Window_3x1_5_08_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_08_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_01.mesh"
+},
+"Root Scene_Wall_Window_3x3_01_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_01_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_02.mesh"
+},
+"Root Scene_Wall_Window_3x3_02_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_02_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_03": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_03.mesh"
+},
+"Root Scene_Wall_Window_3x3_03_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_03_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_04": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_04.mesh"
+},
+"Root Scene_Wall_Window_3x3_04_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_04_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_05": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_05.mesh"
+},
+"Root Scene_Wall_Window_3x3_05_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_05_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_06": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_06.mesh"
+},
+"Root Scene_Wall_Window_3x3_06_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_06_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_07": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_07.mesh"
+},
+"Root Scene_Wall_Window_3x3_07_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_07_Frame.mesh"
+},
+"Root Scene_Wall_Window_3x3_08": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_08.mesh"
+},
+"Root Scene_Wall_Window_3x3_08_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_08_Frame.mesh"
+},
+"Root Scene_Window_Glass_L": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Window_Glass_L.mesh"
+},
+"Root Scene_Window_Glass_M": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Window_Glass_M.mesh"
+},
+"Stairs_Narrow_Full": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Full.mesh"
+},
+"Stairs_Narrow_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Half.mesh"
+},
+"Stairs_Narrow_Single": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Narrow_Single.mesh"
+},
+"Stairs_Wide_Full": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Full.mesh"
+},
+"Stairs_Wide_Half": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Half.mesh"
+},
+"Stairs_Wide_Single": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Stairs_Wide_Single.mesh"
+},
+"Wall_1_5x1_5_Angled_1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_1_5x1_5_Angled_1_5.mesh"
+},
+"Wall_1_5x1_5_Angled_3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_1_5x1_5_Angled_3.mesh"
+},
+"Wall_3x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x1_5.mesh"
+},
+"Wall_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3.mesh"
+},
+"Wall_3x3_Angled_1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3_Angled_1_5.mesh"
+},
+"Wall_3x3_Angled_3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_3x3_Angled_3.mesh"
+},
+"Wall_Archway_3x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_3x1_5.mesh"
+},
+"Wall_Archway_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_3x3.mesh"
+},
+"Wall_Archway_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Cap.mesh"
+},
+"Wall_Archway_Wide": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Wide.mesh"
+},
+"Wall_Archway_Wide_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Archway_Wide_Cap.mesh"
+},
+"Wall_BayWindow": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow.mesh"
+},
+"Wall_BayWindow_Frame_L": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow_Frame_L.mesh"
+},
+"Wall_BayWindow_Frame_M": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_BayWindow_Frame_M.mesh"
+},
+"Wall_Doorway_3x1_5": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_3x1_5.mesh"
+},
+"Wall_Doorway_3x3": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_3x3.mesh"
+},
+"Wall_Doorway_Cap": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Doorway_Cap.mesh"
+},
+"Wall_Fireplace": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Fireplace.mesh"
+},
+"Wall_Window_3x1_5_01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_01.mesh"
+},
+"Wall_Window_3x1_5_01_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_01_Frame.mesh"
+},
+"Wall_Window_3x1_5_02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_02.mesh"
+},
+"Wall_Window_3x1_5_02_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_02_Frame.mesh"
+},
+"Wall_Window_3x1_5_03": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_03.mesh"
+},
+"Wall_Window_3x1_5_03_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_03_Frame.mesh"
+},
+"Wall_Window_3x1_5_04": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_04.mesh"
+},
+"Wall_Window_3x1_5_04_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_04_Frame.mesh"
+},
+"Wall_Window_3x1_5_05": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_05.mesh"
+},
+"Wall_Window_3x1_5_05_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_05_Frame.mesh"
+},
+"Wall_Window_3x1_5_06": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_06.mesh"
+},
+"Wall_Window_3x1_5_06_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_06_Frame.mesh"
+},
+"Wall_Window_3x1_5_07": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_07.mesh"
+},
+"Wall_Window_3x1_5_07_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_07_Frame.mesh"
+},
+"Wall_Window_3x1_5_08": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_08.mesh"
+},
+"Wall_Window_3x1_5_08_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x1_5_08_Frame.mesh"
+},
+"Wall_Window_3x3_01": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_01.mesh"
+},
+"Wall_Window_3x3_01_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_01_Frame.mesh"
+},
+"Wall_Window_3x3_02": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_02.mesh"
+},
+"Wall_Window_3x3_02_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_02_Frame.mesh"
+},
+"Wall_Window_3x3_03": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_03.mesh"
+},
+"Wall_Window_3x3_03_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_03_Frame.mesh"
+},
+"Wall_Window_3x3_04": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_04.mesh"
+},
+"Wall_Window_3x3_04_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_04_Frame.mesh"
+},
+"Wall_Window_3x3_05": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_05.mesh"
+},
+"Wall_Window_3x3_05_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_05_Frame.mesh"
+},
+"Wall_Window_3x3_06": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_06.mesh"
+},
+"Wall_Window_3x3_06_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_06_Frame.mesh"
+},
+"Wall_Window_3x3_07": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_07.mesh"
+},
+"Wall_Window_3x3_07_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_07_Frame.mesh"
+},
+"Wall_Window_3x3_08": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_08.mesh"
+},
+"Wall_Window_3x3_08_Frame": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Wall_Window_3x3_08_Frame.mesh"
+},
+"Window_Glass_L": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Window_Glass_L.mesh"
+},
+"Window_Glass_M": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/Architecture Pack/Architecture/Mesh/extracted/Architecture Kit.Window_Glass_M.mesh"
+}
+},
+"nodes": {
+"PATH:AnimationPlayer": {
+"optimizer/enabled": true,
+"optimizer/max_angular_error": 0.00277778,
+"optimizer/max_linear_error": 0.5
+}
+}
+}
+gltf/naming_version=0
+gltf/embedded_image_handling=1

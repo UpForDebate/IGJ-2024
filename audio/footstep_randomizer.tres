@@ -6,8 +6,9 @@
 [ext_resource type="AudioStream" uid="uid://d0bruycbo8kmw" path="res://audio/footstep_concrete_003.ogg" id="4_5aht1"]
 
 [resource]
-streams_count = 4
 playback_mode = 2
+random_volume_offset_db = 10.0
+streams_count = 4
 stream_0/stream = ExtResource("1_catbg")
 stream_0/weight = 1.0
 stream_1/stream = ExtResource("2_c0ona")
