@@ -65,6 +65,9 @@ func _process(_delta):
 		if closest != null && closest.get_meta("interactionTiemeline")!=null:
 			Dialogic.start(closest.get_meta("interactTimeline"))
 
+		if closest != null && closest.get_meta("door") == true:
+			$"../".playTimeline()
+
 
 func _on_die():
 	print_debug("I have died. Anyways...")

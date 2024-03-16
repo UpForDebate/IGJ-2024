@@ -16,6 +16,7 @@ func _ready():
 
 func startGame():
 	state = 0
+	Dialogic.signal_event.connect(endGame)
 	playTimeline()
 
 func startTimer(fail = 0):
@@ -27,12 +28,18 @@ func startTimer(fail = 0):
 	_timerNode.start()
 
 func endGame():
+	Dialogic.timeline_ended.disconnect(startTimer)
+
+	Dialogic.timeline_ended.connect(Dialogic.start.bind(_timelines[3]))
 	pass
 	
 
 
 
 func playTimeline():
+	if(state==3):
+		endGame()
+		return
 	var _auxTimeline = Dialogic.start(_timelines[state])
 	state += 1
 	
@@ -44,3 +51,8 @@ func playTimeline():
 
 
 
+
+
+func _on_timer_timeout():
+	endGame()
+	Dialogic.VAR.isTimerOver = true
