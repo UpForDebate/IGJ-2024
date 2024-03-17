@@ -6,15 +6,24 @@ var state : int = 0
 @export var _timelines : Array[DialogicTimeline]
 @onready var _timerNode : Timer = $Timer
 @export var snifferShader : Node3D
-
+var nextKnockTime :int = 61 
+@onready var knockNode : AudioStreamPlayer = $knockAudioPlayer
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+
+
 	startGame()
 	Dialogic.timeline_started.connect(timerPause.bind(true))
 	Dialogic.timeline_ended.connect(timerPause.bind(false))
 
 	pass # Replace with function body.
+
+func _process(_delta):
+	if( _timerNode.time_left< nextKnockTime && _timerNode.paused == false):
+		nextKnockTime-=30
+		knockNode.play()
+
 
 func timerPause (pause : bool):
 	_timerNode.paused = pause
@@ -66,6 +75,7 @@ func playTimeline():
 	
 	if(state==2):
 		_timerNode.wait_time = 180
+		nextKnockTime = 91
 	
 
 
