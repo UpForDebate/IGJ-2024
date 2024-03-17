@@ -7,7 +7,7 @@ var state : int = 0
 @onready var _timerNode : Timer = $Timer
 @export var snifferShader : Control
 var nextKnockTime :int = 61 
-@onready var knockNode : AudioStreamPlayer = $knockAudioPlayer
+@onready var knockNode :AudioStreamPlayer3D = $knockAudioPlayer
 @onready var mainMenu = preload("res://scenes/main_menu.tscn")
 
 # Called when the node enters the scene tree for the first time.

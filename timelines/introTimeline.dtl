@@ -1,17 +1,27 @@
+[background fade="1.0"]
 *Moisés está chillando no seu apartamento. Por algum motivo não importante, ele passa pela porta de entrada do apartamento.*
 Edgar: *Abre a porta subitamente e violentamente* MOISÉS!!!
+[voice path="res://timelines/voilines/voiceLines IGJ24-004.wav" volume="0.0"]
+Edgar: *Abre a porta subitamente e violentamente* MOISÈS!!!
 *A porta colide com o Moisés e derruba-o. Ele está inanimado no chão e a perder muito sangue. Uma lesão grave na cabeça é visível*
 Edgar: Moisés ? ………… Moisés! ……….. Estás bem meu?
+[voice path="res://timelines/voilines/voiceLines IGJ24-005.wav" volume="0.0"]
+Edgar: Moisés? ………… Moisés! ……….. Estás bem meu?
+[voice path="res://timelines/voilines/voiceLines IGJ24-008.wav" volume="0.0"]
 Edgar: F***** , matei o Moisés outra vez…
 - Chamar o 112
 	[signal]
+	[signal arg="end"]
 	*Como uma pessoa sensata, o Ed chama uma ambulância.*
 	*A Ambulância chega a tempo e o Moisés é rapidamente reanimado.*
 	*Como foi um acidente naturalmente nenhuma queixa foi apresentada.*
 	*No final ficou tudo bem, mas o Ed não deixa de pensar o quão estúpido seria se ele tivesse escondido o corpo.*
-	[signal arg="backToMenu"]
+	set {isTimeOver} = true
+	set {isTimerOver} = true
+	jump endingTimeline/
 - Tentar esconder o corpo
 	*O Ed arrasta o corpo para a banheira, para pensar melhor no que fazer.*
 	*Knock Knock*
 	*Alguém está à bater à porta.*
+	[voice path="res://timelines/voilines/voiceLines IGJ24-009.wav" volume="0.0"]
 	Edgar: Ok, tenho de despachar isto...
