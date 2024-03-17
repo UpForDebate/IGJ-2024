@@ -7,9 +7,15 @@ const ROTATION_SPEED = 1.66
 
 @onready var _animator = $Character/AnimationPlayer
 @onready var _interaction_area = $InteractionArea
+var interactable : Node3D
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+
+
+
+func _ready():
+	Dialogic.signal_event.connect(deleteInteractable)
 
 func _physics_process(delta):
 	var current_speed = SPRINT_SPEED if Input.is_action_pressed("sprint") else SPEED
@@ -66,10 +72,15 @@ func _process(_delta):
 				closestDistance = (closest.position-position).length()
 		if closest != null && closest.get_meta("interactTimeline")!=null:
 			Dialogic.start(closest.get_meta("interactTimeline"))
+			interactable = closest
 
 		if closest != null && closest.get_meta("door") == true:
 			$"../".playTimeline()
 
+
+func deleteInteractable(argument):
+	if argument == "deleteInteractable":
+		interactable.queue_free()
 
 func _on_die():
 	print_debug("I have died. Anyways...")

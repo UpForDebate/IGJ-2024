@@ -5,6 +5,7 @@ extends Node3D
 var state : int = 0
 @export var _timelines : Array[DialogicTimeline]
 @onready var _timerNode : Timer = $Timer
+@export var _melancia : Node3D
 
 
 # Called when the node enters the scene tree for the first time.
@@ -16,7 +17,7 @@ func _ready():
 
 func startGame():
 	state = 0
-	Dialogic.signal_event.connect(endGame)
+	Dialogic.signal_event.connect(signalHandler)
 	_timerNode.timeout.connect(endGame)
 	playTimeline()
 
@@ -30,13 +31,18 @@ func startTimer(fail = 0):
 		return
 	_timerNode.start()
 
-func endGame(_argument = null):
+func endGame():
 	Dialogic.timeline_ended.disconnect(startTimer)
 	if(Dialogic.current_timeline == null):
 		Dialogic.start(_timelines[3])
 		return
 	pass
 	
+func signalHandler(_signal : String):
+	match _signal:
+		"end":
+			endGame()
+			
 
 
 
