@@ -8,7 +8,6 @@ Edgar: Moisés? ………… Moisés! ……….. Estás bem meu?
 [voice path="res://timelines/voilines/voiceLines IGJ24-008.wav" volume="0.0"]
 Edgar: F***** , matei o Moisés outra vez…
 - Chamar o 112
-	[signal]
 	[signal arg="end"]
 	*Como uma pessoa sensata, o Ed chama uma ambulância.*
 	*A Ambulância chega a tempo e o Moisés é rapidamente reanimado.*
@@ -16,7 +15,7 @@ Edgar: F***** , matei o Moisés outra vez…
 	*No final ficou tudo bem, mas o Ed não deixa de pensar o quão estúpido seria se ele tivesse escondido o corpo.*
 	set {isTimeOver} = true
 	set {isTimerOver} = true
-	jump endingTimeline/
+	[signal arg="backToMenu"]
 - Tentar esconder o corpo
 	*O Ed arrasta o corpo para a banheira, para pensar melhor no que fazer.*
 	*Knock Knock*

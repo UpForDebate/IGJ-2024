@@ -40,3 +40,6 @@ if {isMoisesGarbage} == true:
 	"Pivot de TV": Não se sabe ainda quem deitaria o Moisés ao lixo, mas a busca continua.
 if {isMoisesFridged} == true:
 	"Pivot de TV": Não se sabe quem estava com fome mas a a busca continua
+
+[signal arg="backToMenu"]
+
