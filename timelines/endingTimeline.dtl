@@ -1,18 +1,42 @@
-[background fade="1.0"]
-*Moisés está chillando no seu apartamento. Por algum motivo não importante, ele passa pela porta de entrada do apartamento.*
-Edgar: *Abre a porta subitamente e violentamente* MOISÈS!!!
-*A porta colide com o Moisés e derruba-o. Ele está inanimado no chão e a perder muito sangue. Uma lesão grave na cabeça é visível*
-Edgar: Moisés ? ………… Moisés! ……….. Estás bem meu?
-Edgar: F***** , matei o Moisés outra vez…
-- Chamar o 112
-	[signal arg="end"]
-	*Como uma pessoa sensata, o Ed chama uma ambulância.*
-	*A Ambulância chega a tempo e o Moisés é rapidamente reanimado.*
-	*Como foi um acidente naturalmente nenhuma queixa foi apresentada.*
-	*No final ficou tudo bem, mas o Ed não deixa de pensar o quão estúpido seria se ele tivesse escondido o corpo.*
-	jump endingTimeline/
-- Tentar esconder o corpo
-	*O Ed arrasta o corpo para a banheira, para pensar melhor no que fazer.*
-	*Knock Knock*
-	*Alguém está à bater à porta.*
-	Edgar: Oh não! Tenho de despachar isto...
+[background scene="res://scenes/Blackscreen.tscn" fade="1.0"]
+*Notícias de Gazão\:*
+label Where Body
+if {isMoisesFridged} == true:
+	"Pivot de TV": Um corpo foi encontrado no frígorifico de um apartamento.
+elif {isMoisesCarpet} == true:
+	"Pivot de TV": Um corpo foi encontrado embrulhado em umas carpetes abandonadas na rua.
+elif {isMoisesGarbage} == true:
+	"Pivot de TV": Um corpo foi despejado em vários sacos do lixo.
+elif {isMoisesRio} == true:
+	"Pivot de TV": Em um caso bizarro, partes de um corpo foram enviadas para o Rio de Janeiro, por meio de caixas de cartão.
+elif {isMoisesBed} == true:
+	"Pivot de TV": Em péssimas notícias, o Moisés foi encontrado falecido na cama.
+else:
+	"Pivot de TV": Um corpo foi encontrado na banheira de um apartamento.
+if {isTozeDead} == true:
+	"Pivot de TV": Tozé também foi encontrado morto, para quem isso interesse. Tinha uma melancia na cabeça.
+label How it Was Found
+if {isMoisesChopped} == true:
+	"Pivot de TV": O corpo estava cortado às postas. Tornando díficil a identificação do defunto.
+elif {isMoisesBed} == true:
+	"Pivot de TV": Ele morreu de causas naturais com uma pancada na cabeças.
+else:
+	"Pivot de TV": O corpo estava intacto, com um grande galo na cabeça.
+	"Pivot de TV": O defunto foi identificado como sendo o Moisés.
+label Suspect
+if {isTimerOver} == true:
+	"Pivot de TV": Nesse apartamento também foi encontrado o Edgar, coberto com sangue da vítima. Este foi imediatamente preso e sentenciado à morte.
+elif {isEdDead} == true:
+	Edgar: Suspeita-se que Edgar Amorim que também foi encontrado morto no apartamento, tenha matado o Moisés e depois morrido de causas sobre-naturais.
+elif {isMoisesBed} == true:
+	"Pivot de TV": Devido à natureza do incidente ninguém é suspeito de estar envolvido.
+	"Pivot de TV": Presume-se que ele caiu fortemente no hall de entrada, foi tomar banho e dormiu onde não acordou.
+elif {isMoisesRio} == true:
+	"Pivot de TV": Suspeita-se que Edgar Amorim esteja envolvido no caso devido ao seu nome estar no remetente da encomenda.
+elif {isMoisesChopped} == true:
+	if {isHandsWashed} == false:
+		Edgar: Suspeita-se de Edgar Amorim, visto este não ter lavado as mãos ao sair do apartamento e estas estarem com sangue.
+if {isMoisesGarbage} == true:
+	"Pivot de TV": Não se sabe ainda quem deitaria o Moisés ao lixo, mas a busca continua.
+if {isMoisesFridged} == true:
+	"Pivot de TV": Não se sabe quem estava com fome mas a a busca continua

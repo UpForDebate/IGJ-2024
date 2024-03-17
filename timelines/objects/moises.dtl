@@ -2,9 +2,11 @@ if {hasKnife} == true:
 	Edgar: Eu tenho um Moisés, eu tenho uma faca...
 	Cortar o Moisés aos bocados?
 	- Sim
-		set {isHandsWashed} = 
+		set {isHandsWashed} = false
 		set {isMoisesChopped} = true
 		[signal arg="deleteInteractable"]
+		[sound path="res://audio/sgx/157355-MB-Chopping-Off-Heads-09.mp3" volume="0.0"]
+		[background scene="res://scenes/Blackscreen.tscn" fade="0.0"]
 		Edgar: Chop Chop, vou ficar todo sujo.
 	- Não
 		Edgar: Não sou talhado para isso.
