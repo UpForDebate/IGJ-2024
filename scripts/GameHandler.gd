@@ -8,8 +8,12 @@ var state : int = 0
 @export var snifferShader : Node3D
 var nextKnockTime :int = 61 
 @onready var knockNode : AudioStreamPlayer = $knockAudioPlayer
+@onready var mainMenu = preload("res://scenes/main_menu.tscn")
 
 # Called when the node enters the scene tree for the first time.
+
+
+
 func _ready():
 
 
@@ -57,6 +61,10 @@ func signalHandler(_signal : String):
 			endGame()
 		"sniff":
 			snifferShader.visible = true
+		"backToMenu":
+			get_parent().add_child(mainMenu.instantiate())
+			self.queue_free()
+			
 
 
 
