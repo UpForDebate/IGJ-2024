@@ -2,14 +2,17 @@
 Toze: Moisés, estás bem? Ouvi um estrondo enorme no apartamento, precisas de ajuda?
 *Edgar abre a porta*
 if {isHandsWashed} == false:
+	[signal]
 	Toze: F***** Ed, estás cheio de sangue nas mãos, vou chamar a polícia!
-	set {isTimerOver} = true
+	set {isTimeOver} = true
 	jump endingTimeline/
+	
 else:
 	- Admitir
+		[signal]
 		Edgar: Das duas uma\: ou eu matei o Moisés, ou estes soporíferos russos funcionam bem demais…
 		Toze: O QUÊ? TEMOS DE CHAMAR A UMA AMBULÂNCIA!!!!!!
-		set {isTimerOver} = true
+		set {isTimeOver} = true
 		jump endingTimeline/
 	- Gaslighting
 		Edgar: Um estroundo? Deves ter ouvido mal, o único estrondo aqui é a minha bombástica voz de Symphonic Metal.
@@ -18,7 +21,9 @@ else:
 		Edgar: Yep, eu estava a ajudar o Moisés com uns arrumos e deixei cair um candeeiro, erro meu.
 		Toze: Claro que tinhas de ser tu Edgar, lembra-te que se tu partes, pagas. 
 	- Silêncio
+		[signal]
 		Edgar: ……………………………………………………….
 		Toze: Moisés? Estás aí? ………………….. Moisés?!?!?! …………….. Que se f***, vou chamar a segurança.
-		set {isTimerOver} = true
+		set {isTimeOver} = true
 		jump endingTimeline/
+		

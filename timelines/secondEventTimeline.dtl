@@ -1,1 +1,44 @@
-timeline3
+*Após algum tempo, os passos voltam a ecoar no corredor do apartamento, mas desta vez familiares e muito mais apressados. Era o Tozé*
+*bate agressivamente na porta*
+Toze: EDGAR! Já passou muito tempo e o barulho nunca mais acaba! Quer queiram quer não eu vou entrar agora!
+*A porta é aberta agressivamente e o Tozé*
+Toze: Edgar, onde é que está o Moisés? Isto já não tem piada nenhuma!
+
+*Neste momento são apresentadas várias opções ao jogador*
+- Atirar a melancia [if {hasMelancia} == true]
+	*Arremessando a melancia contra o Tozé*
+	Edgar: PENSA RÁPIDO ZECA!
+	*O Tozé leva com toda a força massiva do golpe do Edgar, acabando estatelado no chão. Inanimado e a sangrar agressivamente*
+	Edgar: Pronto, fresco que nem fruta.
+
+- Silêncio
+	[signal]
+	Edgar: …………………………..
+	Toze: Edgar! ONDE. ESTÁ. O MOISÉS?
+	Edgar: ..........................................................................
+	Toze: Edgar….. O que raio, em nome de tudo o que é santo, fizeste ao Moisés.?
+	*O Tozé sai disparado da frente do Edgar e começa a vasculhar o apartamento. O barulho da procura eventualmente acaba, seguido por gritos e uma conversa em pânico com a polícia*
+	set {isTimeOver} = true
+	jump endingTimeline/
+
+- Mentira
+	[signal]
+	Edgar: Moisés? O Moisés já saiu! Ele disse-me que ias ter com ele à convenção com , ele deve estar a ir ter ao ponto de encontro agora mesmo.
+	Toze: Á sério? Eu não tenho qualquer conhecimento disto! Esta situação é tão … bizarra!
+	Edgar: À sério que não te lembras ? Como é te escapou isso te escapou! Vamos, vamos temos que nos despachar!
+	Toze: E já agora, as pancadas até eram o quê? Praticar cantar à desgarrada?
+	Edgar: Tu sabes, a casa está cheia de aranhas e- …
+	Toze: É é é é, e tu estás é cheio de balelas, a convenção nem hoje é! Sai-me da frente!
+	*O Tozé sai disparado da frente do Edgar e começa a vasculhar o apartamento. O barulho da procura eventualmente acaba, seguido por gritos e uma conversa em pânico com a polícia*
+	set {isTimeOver} = true
+	jump endingTimeline/
+
+- Fingir ignorância
+	[signal]
+	Edgar: Não sei..
+	Toze: Não … sabes? Passaste aqui o dia todo, a bater nas paredes e tetos, fazer um barulho descomunal … e simplesmente… não sabes?
+	Edgar: Sei lá, ele saiu á algum tempo atrás, deve ter ido às compras ou assim. Eu só vim aqui … ahhh… lanchar com ele.
+	Toze: De facto? Deves ter feito batatas à murro nas paredes com esta confusão toda. Desampara-me a loja!
+	*O Tozé sai disparado da frente do Edgar e começa a vasculhar o apartamento. O barulho da procura eventualmente acaba, seguido por gritos e uma conversa em pânico com a polícia*
+	set {isTimeOver} = true
+	jump endingTimeline/

@@ -51,6 +51,8 @@ func _physics_process(delta):
 
 
 func _process(_delta):
+	if (Dialogic.current_timeline !=null):
+		return
 	if(Input.is_action_just_pressed("interact")):
 		var interactablesInRange = _interaction_area.get_overlapping_bodies()
 		var closest : Node3D

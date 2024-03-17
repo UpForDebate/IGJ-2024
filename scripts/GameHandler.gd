@@ -17,9 +17,12 @@ func _ready():
 func startGame():
 	state = 0
 	Dialogic.signal_event.connect(endGame)
+	_timerNode.timeout.connect(endGame)
 	playTimeline()
 
 func startTimer(fail = 0):
+	Dialogic.timeline_ended.disconnect(startTimer)
+	Dialogic.timeline_ended.disconnect($Control/Blackscreen/AnimationPlayer.play.bind("fadeIn"))
 	if (fail != 0):
 		pass
 	if(state==4):
@@ -27,10 +30,11 @@ func startTimer(fail = 0):
 		return
 	_timerNode.start()
 
-func endGame():
+func endGame(_argument = null):
 	Dialogic.timeline_ended.disconnect(startTimer)
-
-	Dialogic.timeline_ended.connect(Dialogic.start.bind(_timelines[3]))
+	if(Dialogic.current_timeline == null):
+		Dialogic.start(_timelines[3])
+		return
 	pass
 	
 
@@ -47,7 +51,7 @@ func playTimeline():
 	
 	Dialogic.timeline_ended.connect(startTimer)
 	Dialogic.timeline_ended.connect($Control/Blackscreen/AnimationPlayer.play.bind("fadeIn"))
-	Dialogic.timeline_ended.connect(_timerNode.start)
+	#Dialogic.timeline_ended.connect(_timerNode.start)
 	
 	if(state==2):
 		_timerNode.wait_time = 180

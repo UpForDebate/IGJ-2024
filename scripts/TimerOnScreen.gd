@@ -4,4 +4,4 @@ extends Label
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
-	text = str(int(_timerNode.time_left/60)) + ":" + str(int(_timerNode.time_left)%60)
+	text = "0" + str(int(_timerNode.time_left/60)) + ":" + (("0" + str(int(_timerNode.time_left)%60)) if (int(_timerNode.time_left)%60<10) else str(int(_timerNode.time_left)%60))
