@@ -2,8 +2,9 @@ if {isMoisesChopped} == false:
 	Edgar: Não estou com fome.
 	Edgar: Até deve dar para meter o Moisés aqui, mas não num só pedaço
 else:
-	Edgar: Ok, tenho de manter a cabeça fria. Ele só precisa de um pouco de gelo. Sim, vou escondê-lo no frigorífico e esperar que ele acorde com as ideias frescas. 
+	Edgar: Ok, tenho de manter a cabeça fria. Ele só precisa de um pouco de gelo. Sim, vou escondê-lo no frigorífico e esperar que ele acorde com as ideias frescas.
 	- Guardar o Moisés
 		Edgar: Ok, está guardado, agora vamos sair daqui.
+		jump endingTimeline/
 	- Procurar outro sítio
 		Edgar: É melhor não, ainda comem o Moisés por acidente.

@@ -618,6 +618,7 @@ shape = SubResource("CapsuleShape3D_jfiq6")
 
 [node name="FootstepsAudioStream" type="AudioStreamPlayer3D" parent="."]
 stream = ExtResource("4_fmnyv")
+max_db = 6.0
 
 [node name="Health" type="Node" parent="."]
 script = ExtResource("5_rcwnb")

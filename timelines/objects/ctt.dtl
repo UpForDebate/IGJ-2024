@@ -1,0 +1,12 @@
+if {isMoisesChopped} == true:
+	Edgar: Nada de sambar à volta do assunto, tenho que o despachar para bem longe. A carne vale pelo menos para a viagem e depois disso, só o Redentor sabe…
+	Enviar o Moisés para o Rio de Janeiro?
+	- Sim
+		set {isMoisesRio} = true
+		Edgar: Depois manda postais.
+		jump endingTimeline/
+	- Não
+		Edgar: Nah, os portes continuam muito caros.
+else:
+	Edgar: O Moisés disse que gosta de visitar o Brasil, podia enviar-lo para lá.
+	Edgar: Mas os portes são caros para uma caixa do tamanho dele, mas se for caixinhas pequenas...

@@ -1,0 +1,8 @@
+Edgar: Vamos lá, sem talhar cantos… Ainda há muito pano para cortar…
+Levar a faca?
+- Sim
+	[signal arg="deleteInteractable"]
+	set {hasKnife} = true
+	Edgar: O Moisés agora está feito ao bife.
+- Não
+	Edgar: Não sou talhado para isto.

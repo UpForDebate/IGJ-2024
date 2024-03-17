@@ -1,0 +1,12 @@
+if {hasTrashBags} == true:
+	if {isMoisesChopped} == true:
+		Edgar: Não é altura de despejar emoções, tenho de atar esta ponta solta. Vou pô-lo no lixo. Espero que isto conte como reciclar.
+		- Despejar o Moisés no Lixo
+			set {isMoisesGarbage} = true
+			Edgar: Ok, feito, agora vamos embora daqui.
+			jump endingTimeline/
+		- O Moisés é demasiado lindo para ser despejado
+			Edgar: Que se lixe, arranjo outra forma
+	Edgar: O Moisés não vai caber inteiro num só saco.
+else:
+	Edgar: Acho que está na altura de despejar o lixo

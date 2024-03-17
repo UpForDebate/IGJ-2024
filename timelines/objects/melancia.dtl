@@ -1,0 +1,10 @@
+Edgar: Oh grande Melancia, que devo eu fazer ?
+*A melancia vibra misteriosamente e tomba ligeiramente para uma lado*
+Edgar: Comê-lo? Nunca, a minha relação com ele é puramente profissional
+Levar a Melancia da sabedoria?
+- Sim
+	set {hasMelancia} = true
+	[signal arg="deleteInteractable"]
+	Edgar: Irás ajudar-me na minha aventura.
+- Não
+	Edgar: Demasiado pesada para levar de um lado para o outro.

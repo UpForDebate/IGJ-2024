@@ -1,0 +1,8 @@
+Edgar: Quando disse que o Moisés enchia-me o saco, nunca pensei que fosse tão literal…
+Levar sacos do lixo?
+- Sim
+	[signal arg="deleteInteractable"]
+	set {hasTrashBags} = true
+	Edgar: Hora da reciclagem
+- Não
+	Edgar: Mais tarde maybe...

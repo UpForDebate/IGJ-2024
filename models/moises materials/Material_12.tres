@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://pxphffk38ecm"]
+
+[ext_resource type="Texture2D" uid="uid://dy03uvrhn232d" path="res://models/Moises_Done_Image_12.png" id="1_5qdfh"]
+
+[resource]
+resource_name = "Material_12"
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+cull_mode = 2
+albedo_texture = ExtResource("1_5qdfh")
+texture_filter = 2
+texture_repeat = false

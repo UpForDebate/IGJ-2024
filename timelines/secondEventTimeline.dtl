@@ -3,8 +3,6 @@
 Toze: EDGAR! Já passou muito tempo e o barulho nunca mais acaba! Quer queiram quer não eu vou entrar agora!
 *A porta é aberta agressivamente e o Tozé*
 Toze: Edgar, onde é que está o Moisés? Isto já não tem piada nenhuma!
-
-*Neste momento são apresentadas várias opções ao jogador*
 - Atirar a melancia [if {hasMelancia} == true]
 	*Arremessando a melancia contra o Tozé*
 	Edgar: PENSA RÁPIDO ZECA!

@@ -1,0 +1,12 @@
+if {hasKnife} == true:
+	Edgar: Eu tenho um Moisés, eu tenho uma faca...
+	Cortar o Moisés aos bocados?
+	- Sim
+		set {isHandsWashed} = 
+		set {isMoisesChopped} = true
+		[signal arg="deleteInteractable"]
+		Edgar: Chop Chop, vou ficar todo sujo.
+	- Não
+		Edgar: Não sou talhado para isso.
+else:
+	Edgar: Inteiro vai ser díficil de mover.

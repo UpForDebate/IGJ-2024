@@ -1,0 +1,11 @@
+if {isMoisesChopped} == true:
+	Edgar: Eu podia simplesmente ter metido o Moisés na cama. Mas agora vou sujar os lençóis com ele aos bocados.
+else:
+	Edgar: Bem, esconde-se uma árvore na floresta, um corpo num cemitério e o Moisés na cama. Enquanto ele dorme sobre a situação eu vou arranjar algo que não seja meios termos.
+	Colocar o Moisés na cama?
+	- Sim
+		set {isMoisesBed} = true
+		Edgar: Feito, bem isto foi simples. Vamos embora.
+		jump endingTimeline/
+	- Não
+		Edgar: Já carreguei o Moisés até à banheira. Estar a trazê-lo para o quarto ia ser muito cansativo.

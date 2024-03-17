@@ -1,0 +1,89 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dxfr6xo4ayv7j"
+path="res://.godot/imported/Moises_Done.gltf-128cf1f560f14bce93675f65323c872f.scn"
+
+[deps]
+
+source_file="res://models/Moises_Done.gltf"
+dest_files=["res://.godot/imported/Moises_Done.gltf-128cf1f560f14bce93675f65323c872f.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"Material_0.001": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_0.001.tres"
+},
+"Material_1": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_1.tres"
+},
+"Material_10": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_10.tres"
+},
+"Material_11": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_11.tres"
+},
+"Material_12": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_12.tres"
+},
+"Material_2": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_2.tres"
+},
+"Material_3": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_3.tres"
+},
+"Material_4": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_4.tres"
+},
+"Material_5": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_5.tres"
+},
+"Material_6": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_6.tres"
+},
+"Material_7": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_7.tres"
+},
+"Material_8": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_8.tres"
+},
+"Material_9": {
+"use_external/enabled": true,
+"use_external/path": "res://models/moises materials/Material_9.tres"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

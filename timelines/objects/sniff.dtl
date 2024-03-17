@@ -1,0 +1,8 @@
+Edgar: Uma lata de tinta, isto deixa-me nostálgico.
+Edgar: Eu devia focar-me em despachar o Moisés.
+Edgar: Mas...
+- Sniffar a Tinta
+	[signal arg="deleteInteractable"]
+	Edgar: *SNIFFFFFF*
+- Não Sniffar
+	Edgar: Later...

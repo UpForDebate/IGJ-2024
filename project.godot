@@ -28,12 +28,21 @@ directories/dch_directory={
 "Toze": "res://timelines/Toze.dch"
 }
 directories/dtl_directory={
+"caixote_do_lixo": "res://timelines/objects/caixote_do_lixo.dtl",
+"cama": "res://timelines/objects/cama.dtl",
+"ctt": "res://timelines/objects/ctt.dtl",
 "endingTimeline": "res://timelines/endingTimeline.dtl",
+"faca": "res://timelines/objects/faca.dtl",
 "firstEventTimeline": "res://timelines/firstEventTimeline.dtl",
 "frigorifico": "res://timelines/objects/frigorifico.dtl",
 "introTimeline": "res://timelines/introTimeline.dtl",
 "lavatório": "res://timelines/objects/lavatório.dtl",
-"secondEventTimeline": "res://timelines/secondEventTimeline.dtl"
+"melancia": "res://timelines/objects/melancia.dtl",
+"moises": "res://timelines/objects/moises.dtl",
+"sacos_do_lixo": "res://timelines/objects/sacos_do_lixo.dtl",
+"secondEventTimeline": "res://timelines/secondEventTimeline.dtl",
+"sniff": "res://timelines/objects/sniff.dtl",
+"tapetes": "res://timelines/objects/tapetes.dtl"
 }
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true

@@ -1,0 +1,12 @@
+Edgar: Acabou a hipótese de enrolar o assunto, não posso deixar esta situação puxe a carpete dos meus pés.
+if {isMoisesChopped} == false:
+	Enrolar o Moisés nos tapetes?
+	- Sim
+		[signal arg="deleteInteractable"]
+		set {isMoisesCarpet} = true
+		Edgar: Ok, vamos comprar tapetes novos.
+		jump endingTimeline/
+	- Não
+		Edgar: Era um desperdício de tapetes bonitos.
+else:
+	Edgar: É dificil enrolar o Moisés com ele às postas.

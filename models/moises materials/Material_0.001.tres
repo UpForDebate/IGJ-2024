@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cjsj5dd5khsw"]
+
+[ext_resource type="Texture2D" uid="uid://mjdds2kfig5i" path="res://models/Moises_Done_Image_0.png" id="1_xkwia"]
+[ext_resource type="Material" uid="uid://1cy0fwsrd26k" path="res://shaders/highlighter.tres" id="2_xsvo7"]
+
+[resource]
+resource_name = "Material_0.001"
+next_pass = ExtResource("2_xsvo7")
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+cull_mode = 2
+albedo_texture = ExtResource("1_xkwia")
+texture_filter = 2
+texture_repeat = false
