@@ -1,10 +1,8 @@
 [background fade="1.0"]
 *Moisés está chillando no seu apartamento. Por algum motivo não importante, ele passa pela porta de entrada do apartamento.*
-Edgar: *Abre a porta subitamente e violentamente* MOISÉS!!!
 [voice path="res://timelines/voilines/voiceLines IGJ24-004.wav" volume="0.0"]
 Edgar: *Abre a porta subitamente e violentamente* MOISÈS!!!
 *A porta colide com o Moisés e derruba-o. Ele está inanimado no chão e a perder muito sangue. Uma lesão grave na cabeça é visível*
-Edgar: Moisés ? ………… Moisés! ……….. Estás bem meu?
 [voice path="res://timelines/voilines/voiceLines IGJ24-005.wav" volume="0.0"]
 Edgar: Moisés? ………… Moisés! ……….. Estás bem meu?
 [voice path="res://timelines/voilines/voiceLines IGJ24-008.wav" volume="0.0"]
