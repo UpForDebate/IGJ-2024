@@ -3,6 +3,8 @@ Edgar: Eu devia focar-me em despachar o Moisés.
 Edgar: Mas...
 - Sniffar a Tinta
 	[signal arg="deleteInteractable"]
+	[voice path="res://audio/sniff.wav" volume="0.0"]
+	
 	Edgar: *SNIFFFFFF*
 - Não Sniffar
 	Edgar: Later...

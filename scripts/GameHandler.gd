@@ -5,15 +5,19 @@ extends Node3D
 var state : int = 0
 @export var _timelines : Array[DialogicTimeline]
 @onready var _timerNode : Timer = $Timer
-@export var _melancia : Node3D
+@export var snifferShader : Node3D
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	startGame()
+	Dialogic.timeline_started.connect(timerPause.bind(true))
+	Dialogic.timeline_ended.connect(timerPause.bind(false))
+
 	pass # Replace with function body.
 
-
+func timerPause (pause : bool):
+	_timerNode.paused = pause
 
 func startGame():
 	state = 0
@@ -42,7 +46,8 @@ func signalHandler(_signal : String):
 	match _signal:
 		"end":
 			endGame()
-			
+		"sniff":
+			snifferShader.visible = true
 
 
 
