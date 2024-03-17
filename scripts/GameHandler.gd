@@ -5,7 +5,7 @@ extends Node3D
 var state : int = 0
 @export var _timelines : Array[DialogicTimeline]
 @onready var _timerNode : Timer = $Timer
-@export var snifferShader : Node3D
+@export var snifferShader : Control
 var nextKnockTime :int = 61 
 @onready var knockNode : AudioStreamPlayer = $knockAudioPlayer
 @onready var mainMenu = preload("res://scenes/main_menu.tscn")
@@ -63,7 +63,7 @@ func signalHandler(_signal : String):
 			snifferShader.visible = true
 		"backToMenu":
 			get_parent().add_child(mainMenu.instantiate())
-			self.queue_free()
+			get_parent().remove_child(self)
 			
 
 
