@@ -19,8 +19,8 @@ func _ready():
 	Dialogic.signal_event.connect(deleteInteractable)
 
 func _physics_process(delta):
-	var current_speed = SPRINT_SPEED if Input.is_action_pressed("sprint") else SPEED
-	var walk_anim = "survivalHorror/Jog Forward" if Input.is_action_pressed("sprint") else  "survivalHorror/Walking"
+	var current_speed = SPEED
+	var walk_anim = "Walk"
 	if(Dialogic.current_timeline!=null):
 		_animator.play("survivalHorror/Idle", 1.0, 1.0, false)
 		return
@@ -43,10 +43,10 @@ func _physics_process(delta):
 		_animator.play(walk_anim, 1.0, 1.0, false)
 		velocity = forward * current_speed
 	else: if Input.is_action_pressed("walk_backwards"):
-		_animator.play_backwards("survivalHorror/Walking", -1)
+		_animator.play_backwards("Walk", -1)
 		velocity = (-1) * forward * SPEED
 	else:
-		_animator.play("survivalHorror/Idle", 1.0, 1.0, false)
+		_animator.play("Idle", 1.0, 1.0, false)
 		velocity.z = move_toward(velocity.z, 0, current_speed)
 		velocity.x = move_toward(velocity.x, 0, current_speed)
 		
