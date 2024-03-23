@@ -2,7 +2,7 @@ Edgar: Acabou a hipótese de enrolar o assunto, não posso deixar esta situaçã
 if {isMoisesChopped} == false:
 	Enrolar o Moisés nos tapetes?
 	- Sim
-		[signal arg="deleteInteractable"]
+		[signal arg="end"]
 		set {isMoisesCarpet} = true
 		Edgar: Ok, vamos comprar tapetes novos.
 		jump endingTimeline/

@@ -22,10 +22,8 @@ func _physics_process(delta):
 	var current_speed = SPEED
 	var walk_anim = "Walk"
 	if(Dialogic.current_timeline!=null):
-		_animator.play("survivalHorror/Idle", 1.0, 1.0, false)
+		_animator.play("Idle", 1.0, 1.0, false)
 		return
-	if Input.is_action_pressed("aim"):
-		_animator.play("survivalHorror/Knife Aim")
 
 	# Handle Character rotation
 	if Input.is_action_pressed("turn_right"):
@@ -85,10 +83,6 @@ func deleteInteractable(argument):
 	if argument == "deleteInteractable":
 		interactableNode.queue_free()
 
-func _on_die():
-	print_debug("I have died. Anyways...")
-	_animator.play("survivalHorror/Dying")
-	set_physics_process(false)
 
 
 func _on_take_damage():

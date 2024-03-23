@@ -2,6 +2,7 @@ if {isMoisesChopped} == true:
 	Edgar: Nada de sambar à volta do assunto, tenho que o despachar para bem longe. A carne vale pelo menos para a viagem e depois disso, só o Redentor sabe…
 	Enviar o Moisés para o Rio de Janeiro?
 	- Sim
+		[signal arg="end"]
 		set {isMoisesRio} = true
 		Edgar: Depois manda postais.
 		jump endingTimeline/

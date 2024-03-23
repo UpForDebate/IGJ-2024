@@ -4,6 +4,7 @@ else:
 	Edgar: Bem, esconde-se uma árvore na floresta, um corpo num cemitério e o Moisés na cama. Enquanto ele dorme sobre a situação eu vou arranjar algo que não seja meios termos.
 	Colocar o Moisés na cama?
 	- Sim
+		[signal arg="end"]
 		set {isMoisesBed} = true
 		Edgar: Feito, bem isto foi simples. Vamos embora.
 		jump endingTimeline/

@@ -6,5 +6,6 @@ Edgar: Mas...
 	[voice path="res://audio/sniff.wav" volume="0.0"]
 	
 	Edgar: *SNIFFFFFF*
+	[signal arg="sniff"]
 - Não Sniffar
 	Edgar: Later...

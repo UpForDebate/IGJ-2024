@@ -1,11 +1,15 @@
 extends Control
 
-@onready var level = preload("res://Assets/Architecture Pack/___ DemoScene/SampleScene.scn")
+@onready var level = preload("res://level.tscn")
+
+func _ready():
+	Dialogic.VAR.reset()
+	pass
 
 func _on_play_button_pressed():
 	var node = level.instantiate()
 	get_parent().add_child(node)
-	self.queue_free()
+	get_parent().remove_child(self)
 
 
 func _on_quit_button_pressed():

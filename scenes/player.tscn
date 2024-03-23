@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://c612sixyebqn8"]
+[gd_scene load_steps=51 format=3 uid="uid://c612sixyebqn8"]
 
 [ext_resource type="Script" path="res://scripts/player_controller.gd" id="1_0jv6t"]
 [ext_resource type="Texture2D" uid="uid://d24xtpyoe01dt" path="res://models/Edgar_Done (1)_Image_1.png" id="2_uac38"]
@@ -6,7 +6,6 @@
 [ext_resource type="AudioStream" uid="uid://dcyilohypqstd" path="res://audio/footstep_randomizer.tres" id="4_fmnyv"]
 [ext_resource type="Texture2D" uid="uid://nhvwwrm6pyop" path="res://models/Edgar_Done (1)_Image_7.png" id="4_vv5kg"]
 [ext_resource type="Texture2D" uid="uid://cks3ng4k1f5uc" path="res://models/Edgar_Done (1)_Image_9.png" id="5_c5k7g"]
-[ext_resource type="Script" path="res://scripts/health.gd" id="5_rcwnb"]
 [ext_resource type="Texture2D" uid="uid://bckvvotb6rb24" path="res://models/Edgar_Done (1)_Image_2.png" id="6_grmxc"]
 [ext_resource type="Texture2D" uid="uid://buu1mlelxew0i" path="res://models/Edgar_Done (1)_Image_3.png" id="7_67nds"]
 [ext_resource type="Texture2D" uid="uid://certwg6rinawm" path="res://models/Edgar_Done (1)_Image_8.png" id="8_chut1"]
@@ -1636,7 +1635,7 @@ bones/25/rotation = Quaternion(0, 0, 0, 1)
 bones/25/scale = Vector3(1, 1, 1)
 
 [node name="Afro_2" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(0.996521, -4.8556e-05, 0.0833384, 0.000138341, 0.999999, -0.00107158, -0.0833383, 0.00107938, 0.996521, 8.19124e-05, 0.0684216, -0.0013315)
+transform = Transform3D(0.996521, -4.85562e-05, 0.0833383, 0.000138341, 0.999999, -0.00107158, -0.0833382, 0.00107938, 0.996521, 8.19125e-05, 0.0684237, -0.0013315)
 bone_name = "Afro_2"
 bone_idx = 6
 
@@ -1645,7 +1644,7 @@ mesh = SubResource("ArrayMesh_6wdmw")
 skeleton = NodePath("")
 
 [node name="Head_2" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(0.996521, -4.8556e-05, 0.0833384, 0.000138341, 0.999999, -0.00107158, -0.0833383, 0.00107938, 0.996521, 8.21565e-05, 0.0633937, -0.00133693)
+transform = Transform3D(0.996521, -4.85562e-05, 0.0833383, 0.000138341, 0.999999, -0.00107158, -0.0833382, 0.00107938, 0.996521, 8.21567e-05, 0.0633959, -0.00133692)
 bone_name = "Head_2"
 bone_idx = 7
 
@@ -1654,7 +1653,7 @@ mesh = SubResource("ArrayMesh_rxkg3")
 skeleton = NodePath("")
 
 [node name="Hand_L_2" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(0.347211, 0.884122, -0.312687, -0.593818, -0.0507919, -0.802995, -0.725827, 0.464488, 0.507372, -0.643943, 0.533865, -0.728296)
+transform = Transform3D(0.347211, 0.884122, -0.312687, -0.593818, -0.0507918, -0.802994, -0.725827, 0.464488, 0.507372, -0.643944, 0.533865, -0.728296)
 bone_name = "Hand.L_2"
 bone_idx = 11
 
@@ -1664,7 +1663,7 @@ mesh = SubResource("ArrayMesh_g8i5n")
 skeleton = NodePath("")
 
 [node name="Hand_R_2" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(0.579996, -0.724767, 0.37191, -0.179293, -0.558922, -0.809605, 0.794644, 0.402887, -0.454118, 0.263574, 1.87096, -1.68229)
+transform = Transform3D(0.579997, -0.724767, 0.371909, -0.179293, -0.558923, -0.809604, 0.794643, 0.402887, -0.454119, 0.263575, 1.87096, -1.68229)
 bone_name = "Hand.R_2"
 bone_idx = 15
 
@@ -1674,7 +1673,7 @@ mesh = SubResource("ArrayMesh_lpouf")
 skeleton = NodePath("")
 
 [node name="Neck_2" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(0.996521, -4.8556e-05, 0.0833384, 0.000138341, 0.999999, -0.00107158, -0.0833383, 0.00107938, 0.996521, 8.22931e-05, 0.0605823, -0.00133996)
+transform = Transform3D(0.996521, -4.85562e-05, 0.0833383, 0.000138341, 0.999999, -0.00107158, -0.0833382, 0.00107938, 0.996521, 8.22932e-05, 0.0605848, -0.00133996)
 bone_name = "Head"
 bone_idx = 17
 
@@ -1683,7 +1682,7 @@ mesh = SubResource("ArrayMesh_rdquc")
 skeleton = NodePath("")
 
 [node name="Shoe_L" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(1, -3.43758e-07, -1.08231e-06, -4.9942e-07, 0.722833, -0.691022, 1.01987e-06, 0.691022, 0.722833, -7.45058e-08, 0.24537, -0.49343)
+transform = Transform3D(1, -3.43758e-07, -1.08231e-06, -4.9942e-07, 0.722833, -0.691023, 1.01987e-06, 0.691023, 0.722833, -4.47035e-08, 0.24537, -0.49343)
 bone_name = "Shoe.L"
 bone_idx = 23
 
@@ -1693,7 +1692,7 @@ mesh = SubResource("ArrayMesh_q4rgu")
 skeleton = NodePath("")
 
 [node name="Shoe_R" type="BoneAttachment3D" parent="Character/ED_Rig/GeneralSkeleton"]
-transform = Transform3D(1, 4.76852e-07, -3.42098e-07, -3.60143e-07, 0.958875, 0.28383, 4.63374e-07, -0.28383, 0.958875, -4.47035e-08, 0.112712, 0.43488)
+transform = Transform3D(1, 4.76852e-07, -3.42098e-07, -3.60144e-07, 0.958875, 0.28383, 4.63375e-07, -0.28383, 0.958875, -4.47035e-08, 0.112713, 0.43488)
 bone_name = "Shoe.R"
 bone_idx = 25
 
@@ -1731,9 +1730,6 @@ shape = SubResource("CapsuleShape3D_jfiq6")
 stream = ExtResource("4_fmnyv")
 max_db = 6.0
 
-[node name="Health" type="Node" parent="."]
-script = ExtResource("5_rcwnb")
-
 [node name="InteractionArea" type="Area3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 1.07847)
 collision_layer = 2
@@ -1741,6 +1737,3 @@ collision_mask = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="InteractionArea"]
 shape = SubResource("BoxShape3D_mqbrt")
-
-[connection signal="on_die" from="Health" to="." method="_on_die"]
-[connection signal="on_take_damage" from="Health" to="." method="_on_take_damage"]

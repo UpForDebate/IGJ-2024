@@ -24,34 +24,40 @@ expand_mode = 1
 [node name="PlayButton" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 471.0
-offset_top = 352.0
-offset_right = -497.0
-offset_bottom = -234.0
+anchor_left = 0.489
+anchor_top = 0.591
+anchor_right = 0.489
+anchor_bottom = 0.591
+offset_left = -92.328
+offset_top = -30.968
+offset_right = 91.672
+offset_bottom = 31.032
 text = "Play"
 
 [node name="QuitButton" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 471.0
-offset_top = 468.0
-offset_right = -497.0
-offset_bottom = -118.0
+anchor_left = 0.489
+anchor_top = 0.77
+anchor_right = 0.489
+anchor_bottom = 0.77
+offset_left = -92.328
+offset_top = -30.96
+offset_right = 91.672
+offset_bottom = 31.04
 text = "Quit"
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.0
-anchor_bottom = 0.465
-offset_left = 257.0
-offset_top = 29.0
-offset_right = -290.0
-offset_bottom = -33.32
+anchor_left = 0.486
+anchor_top = 0.229
+anchor_right = 0.486
+anchor_bottom = 0.229
+offset_left = -302.872
+offset_top = -119.392
+offset_right = 302.128
+offset_bottom = 119.608
 texture = ExtResource("3_dpa4m")
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]

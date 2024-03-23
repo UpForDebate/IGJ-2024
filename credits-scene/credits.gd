@@ -62,7 +62,7 @@ var playlistIndex = 0
 @export var skipControl = "ui_accept"
 
 ## The next scene to load once the scroll ended
-@export var nextScene: PackedScene
+@onready var nextScene = preload("res://scenes/main_menu.tscn")
 ## If true and there is no nextScene selected, once the scroll ended the program will quit
 @export var quitOnEnd = false
 ## If true and there is no nextScene selected and quitOnEnd is false, once the scroll ended the node will be destroyed
@@ -237,7 +237,8 @@ func end():
 	# otherwise if quitOnEnd is enabled, just quit
 	if nextScene != null:
 		# warning-ignore:return_value_discarded
-		get_tree().change_scene_to_file(nextScene.get_path())
+		get_parent().add_child(nextScene.instantiate())
+		self.queue_free()
 	elif quitOnEnd:
 		get_tree().quit()
 	elif destroyOnEnd:

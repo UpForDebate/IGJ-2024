@@ -26,20 +26,18 @@ else:
 label Suspect
 if {isTimerOver} == true:
 	"Pivot de TV": Nesse apartamento também foi encontrado o Edgar, coberto com sangue da vítima. Este foi imediatamente preso e sentenciado à morte.
-elif {isEdDead} == true:
+if {isEdDead} == true:
 	Edgar: Suspeita-se que Edgar Amorim que também foi encontrado morto no apartamento, tenha matado o Moisés e depois morrido de causas sobre-naturais.
-elif {isMoisesBed} == true:
+if {isMoisesBed} == true:
 	"Pivot de TV": Devido à natureza do incidente ninguém é suspeito de estar envolvido.
 	"Pivot de TV": Presume-se que ele caiu fortemente no hall de entrada, foi tomar banho e dormiu onde não acordou.
-elif {isMoisesRio} == true:
+if {isMoisesRio} == true:
 	"Pivot de TV": Suspeita-se que Edgar Amorim esteja envolvido no caso devido ao seu nome estar no remetente da encomenda.
-elif {isMoisesChopped} == true:
-	if {isHandsWashed} == false:
-		Edgar: Suspeita-se de Edgar Amorim, visto este não ter lavado as mãos ao sair do apartamento e estas estarem com sangue.
 if {isMoisesGarbage} == true:
 	"Pivot de TV": Não se sabe ainda quem deitaria o Moisés ao lixo, mas a busca continua.
 if {isMoisesFridged} == true:
 	"Pivot de TV": Não se sabe quem estava com fome mas a a busca continua
+if {isHandsWashed} == false:
+	Edgar: Suspeita-se de Edgar Amorim, visto este não ter lavado as mãos ao sair do apartamento e estas estarem com sangue.
 
 [signal arg="backToMenu"]
-

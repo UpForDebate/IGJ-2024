@@ -1,9 +1,14 @@
-[gd_scene load_steps=16 format=3 uid="uid://dyqronyh16w3o"]
+[gd_scene load_steps=21 format=3 uid="uid://dyqronyh16w3o"]
 
 [ext_resource type="PackedScene" uid="uid://c612sixyebqn8" path="res://scenes/player.tscn" id="1_306pw"]
+[ext_resource type="Script" path="res://scripts/GameHandler.gd" id="1_q5fyb"]
 [ext_resource type="Script" path="res://scripts/camera_rig.gd" id="2_2f0da"]
+[ext_resource type="Resource" path="res://timelines/introTimeline.dtl" id="2_mfh61"]
 [ext_resource type="Script" path="res://scripts/camera_switch.gd" id="3_el8fg"]
+[ext_resource type="Resource" path="res://timelines/firstEventTimeline.dtl" id="3_gtnbt"]
 [ext_resource type="PackedScene" uid="uid://pwlfiiclqfr7" path="res://scenes/zombie.tscn" id="4_2c0pa"]
+[ext_resource type="Resource" path="res://timelines/secondEventTimeline.dtl" id="4_vq52v"]
+[ext_resource type="Resource" path="res://timelines/endingTimeline.dtl" id="5_6mivd"]
 [ext_resource type="Script" path="res://addons/dialogic/Resources/timeline.gd" id="5_8o282"]
 [ext_resource type="Script" path="res://scripts/TimerOnScreen.gd" id="7_7h42p"]
 
@@ -37,6 +42,8 @@ script = ExtResource("5_8o282")
 metadata/timeline_not_saved = false
 
 [node name="sample_scene" type="Node3D"]
+script = ExtResource("1_q5fyb")
+_timelines = Array[ExtResource("5_8o282")]([ExtResource("2_mfh61"), ExtResource("3_gtnbt"), ExtResource("4_vq52v"), ExtResource("5_6mivd")])
 
 [node name="Player" parent="." instance=ExtResource("1_306pw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0725001, -4.8305)

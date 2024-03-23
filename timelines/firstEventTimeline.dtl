@@ -5,6 +5,7 @@ if {isHandsWashed} == false:
 	[signal arg="end"]
 	Toze: F***** Ed, estás cheio de sangue nas mãos, vou chamar a polícia!
 	set {isTimerOver} = true
+	jump endingTimeline/
 
 else:
 	- Admitir
@@ -14,7 +15,7 @@ else:
 		Toze: O QUÊ? TEMOS DE CHAMAR A UMA AMBULÂNCIA!!!!!!
 		set {isTimerOver} = true
 		jump endingTimeline/
-		
+	
 	- Gaslighting
 		[voice path="res://timelines/voilines/voiceLines IGJ24-007.wav" volume="0.0"]
 		Edgar: Um estroundo? Deves ter ouvido mal, o único estrondo aqui é a minha bombástica voz de Symphonic Metal.
@@ -22,7 +23,7 @@ else:
 	- Mentira
 		[voice path="res://timelines/voilines/voiceLines IGJ24-011.wav" volume="0.0"]
 		Edgar: Yep, eu estava a ajudar o Moisés com uns arrumos e deixei cair um candeeiro, erro meu.
-		Toze: Claro que tinhas de ser tu Edgar, lembra-te que se tu partes, pagas. 
+		Toze: Claro que tinhas de ser tu Edgar, lembra-te que se tu partes, pagas.
 	- Silêncio
 		[signal arg="end"]
 		Edgar: ……………………………………………………….

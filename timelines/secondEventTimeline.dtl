@@ -12,6 +12,8 @@ Toze: Edgar, onde é que está o Moisés? Isto já não tem piada nenhuma!
 	*O Tozé leva com toda a força massiva do golpe do Edgar, acabando estatelado no chão. Inanimado e a sangrar agressivamente*
 	[voice path="res://timelines/voilines/voiceLines IGJ24-003.wav" volume="0.0"]
 	Edgar: Pronto, fresco que nem fruta.
+	set {isTozeDead} = true
+	[signal arg="toze"]
 
 - Silêncio
 	[signal arg="end"]

@@ -2,6 +2,7 @@ if {hasTrashBags} == true:
 	if {isMoisesChopped} == true:
 		Edgar: Não é altura de despejar emoções, tenho de atar esta ponta solta. Vou pô-lo no lixo. Espero que isto conte como reciclar.
 		- Despejar o Moisés no Lixo
+			[signal arg="end"]
 			set {isMoisesGarbage} = true
 			Edgar: Ok, feito, agora vamos embora daqui.
 			jump endingTimeline/
